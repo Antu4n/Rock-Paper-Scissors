@@ -3,9 +3,48 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js.js" defer></script>
+	<link rel ="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/f87f5c6d45.js" crossorigin="anonymous"></script>
 	<title>Assignment</title>
 </head>
 <body>
-	<script src="js.js"></script>
+	<div id = "container">
+		<div id = "header">
+			<h1>ROCK PAPER SCISSORS</h1>
+			<h2>First to 5</h2>
+			
+		</div>
+		<div id ="score">
+			<p id ="playerScore">|0:</p>
+			<p id= "compScore"> 0|</p>	
+		</div>		
+
+		<div id = "players">
+			<p id = "playerChoice" style="font-size:2.4em">PLAYER</p>
+			<p id="outcome" style="font-size: 1.5em;"></p>
+			<p id = 'compChoice' style = 'font-size: 2.4em;'>COMPUTER</p>
+
+		</div>
+		<p style="font-size: 1.5em;" id = 'result'></p>	
+
+
+
+
+		<p id="text">
+			ROCK PAPER SCISSORS?
+		</p>
+		<div id = 'game'>	
+			<button class = "btn" id = 'rock'><i class="fa-regular fa-hand-back-fist "></i></button>
+			<button class = "btn" id = 'paper'><i class="fa-regular fa-hand "></i></button>
+			<button class = "btn" id = 'scissors'><i class="fa-regular fa-hand-scissors "></i></button>	
+		</div>		
+		<div class="restart">
+			<button id = "restart">RESTART</button>	
+		</div>
+		
+		
+	</div>
+	
 </body>
 </html>

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    box-sizing: border-box;      
+}
+#container{
+    text-align: center;
+    background-color: rgba(11, 64, 85, 0.329);
+    font-family: cursive;
+    height: 1000px;
+}
+
+ p#outcome {
+    font-size: 1.2rem;
+ }
+ div#game{
+    display: flex;
+    justify-content:  space-around;
+    margin-top: 50px;
+ }
+ div#players{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+ }
+div#score{
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+    font-size: 2.0rem;
+}
+.btn{
+    font-size: 4.4em;
+    background: none;
+    border: none;        
+}
+p#text{
+    font-size: 1.4em;
+    margin-top: 100px;
+}
+
+button#restart{
+    margin-top: 50px;
+    font-size: 1.3em;
+    background-color:aqua;
+    box-shadow: 10px 10px 5px black;
+}
